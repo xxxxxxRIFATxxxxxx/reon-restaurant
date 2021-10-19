@@ -1,0 +1,12 @@
+.cursive-text {
+    font-family: 'Festive', cursive;
+}
+
+.yellow-text {
+    color: #DEA868;
+}
+
+.rounded-picture {
+    width: 70px;
+    border-radius: 50%;
+}

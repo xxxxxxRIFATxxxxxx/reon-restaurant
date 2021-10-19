@@ -20,18 +20,131 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e422e8ad98.js" crossorigin="anonymous"></script>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
     <!-- External CSS -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
 </head>
 
 <body>
     <!-- Header -->
     <header>
+        <!-- Navbar -->
+        <div class="container pt-4">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid nav-logo" src="images/logo-white.svg" alt="logo">
+                    </a>
 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-white" href="/">HOME</a>
+                            </li>
+
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-white" href="menu.html">MENU</a>
+                            </li>
+
+                            <li class="nav-item me-2 dropdown">
+                                <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PAGES
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">1</a></li>
+                                    <li><a class="dropdown-item" href="#">2</a></li>
+                                    <li><a class="dropdown-item" href="#">3</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-white" href="gallery.html">GALLERY</a>
+                            </li>
+
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-white" href="blog.html">BLOG</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Title Section -->
+        <div class="d-flex flex-column justify-content-center align-items-center h-75">
+            <h4 class="cursive-text text-white display-4">Welcome to Reon</h4>
+            <small class="text-white">READY TO BE OPENED</small>
+            <button class="btn btn-outline-light mt-3 p-3">RESERVATION</button>
+        </div>
     </header>
 
     <!-- Main -->
     <main>
+        <!-- Story Section -->
+        <div>
+            <div class="container py-5 my-5">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <h5 class="card-title cursive-text fs-2 yellow-text mb-0">
+                                    Discover
+                                </h5>
+
+                                <h2 class="fs-1">OUR STORY</h2>
+
+                                <p class="card-text text-muted mt-3">
+                                    Cras sed felis eget velit aliquet. Etiam dignissim diam lobortis scelerisque
+                                    fermentum. Eu non diam phasellus vestibulum lore risus ultricies tristique varius
+                                    quam quis hendrerit dolor.”
+                                </p>
+
+                                <div class="mt-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-fluid rounded-picture" src="images/chef.jpg" alt="chef">
+
+                                        <div class="ms-3">
+                                            <h5 class="mb-0">FRANK REYES</h5>
+                                            <small class="text-muted">Master Chef</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <img src="images/drinks-1.jpg" class="img-fluid" alt="drinks image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/meat.jpg" class="img-fluid" alt="meat image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Footer -->
