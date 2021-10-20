@@ -1,0 +1,44 @@
+.menu-item-container {
+    margin: 0 15vw;
+}
+
+.menu-side-starter {
+    background-image: url("../images/hp-1-menu-start.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.menu-side-lunch {
+    background-image: url("../images/hp-1-menu-lunch.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.menu-side-dinner {
+    background-image: url("../images/hp-1-menu-drinks.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.menu-side-alcoholic {
+    background-image: url("../images/hp-1-menu-alcoholic.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.menu-side-drinks {
+    background-image: url("../images/hp-1-menu-dinner.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.side-menu-text {
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 1021px) {
+    .menu-side-starter, .menu-side-lunch, .menu-side-dinner, .menu-side-alcoholic, .menu-side-drinks {
+        display: none;
+    }
+
+}

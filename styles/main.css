@@ -6,6 +6,10 @@
     color: #DEA868;
 }
 
+.yellow-bg {
+    background-color: #DEA868;;
+}
+
 .rounded-picture {
     width: 70px;
     border-radius: 50%;
