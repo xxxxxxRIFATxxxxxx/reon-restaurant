@@ -13,6 +13,20 @@ header {
     background-position: center;
 }
 
+.lunch-section {
+    background-image: url("../images/lunch-bg.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
+
+.dinner-section {
+    background-image: url("../images/dinner-bg.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
+
 .starter {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/food-6.jpg');
     background-repeat: no-repeat;
@@ -59,4 +73,17 @@ header {
     background-color: white !important;
     color: black !important;
     padding: 10px !important;
+}
+
+.menu-bg {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/slider-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1027px) {
+    .icons-container {
+        display: none !important;
+    }
 }

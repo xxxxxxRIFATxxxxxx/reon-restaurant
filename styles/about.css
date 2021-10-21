@@ -1,0 +1,13 @@
+.about-section {
+    background-image: url("../images/about-bg.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
+
+.our-stuff {
+    background-image: url("../images/our-staff-bg.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+}

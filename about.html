@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>Reon Restaurant</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="" type="image/gif" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e422e8ad98.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/menu-carousel.css">
+    <link rel="stylesheet" href="styles/our-menu.css">
+    <link rel="stylesheet" href="styles/best-place.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/menu-page.css">
+    <link rel="stylesheet" href="styles/about.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="yellow-bg text-white p-3">
+            <div
+                class="container d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-sm-between">
+                <div
+                    class="d-flex flex-column flex-sm-row justify-content-center justify-content-sm-start align-items-center">
+                    <div class="me-3">
+                        <small>Reon, 1535 Broadway, New York</small>
+                    </div>
+
+                    <div>
+                        <small>+1 111-222-2222</small>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center text-white contact">
+                    <a href="#" class="me-3">
+                        <i class="fab fa-facebook-f text-white social-icon small-text"></i>
+                    </a>
+
+                    <a href="#" class="me-3">
+                        <i class="fab fa-google-plus-g text-white social-icon small-text"></i>
+                    </a>
+
+                    <a href="#" class="me-3">
+                        <i class="fab fa-twitter text-white social-icon small-text"></i>
+                    </a>
+
+                    <a href="#" class="me-3">
+                        <i class="fab fa-instagram text-white social-icon small-text"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <div class="container pt-4">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid nav-logo" src="images/logo-black.svg" alt="logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-2">
+                                <a class="nav-link fw-bold" href="/">HOME</a>
+                            </li>
+
+                            <li class="nav-item me-2 dropdown">
+                                <a class="nav-link fw-bold dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    MENU
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="menu.html">Menu</a></li>
+                                    <li><a class="dropdown-item" href="menu-starter.html">Menu Starter</a></li>
+                                    <li><a class="dropdown-item" href="menu-lunch.html">Menu Lunch</a></li>
+                                    <li><a class="dropdown-item" href="menu-dinner.html">Menu Dinner</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item me-2 dropdown">
+                                <a class="nav-link fw-bold dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PAGES
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                    <li><a class="dropdown-item" href="our-team.html">Our Team</a></li>
+                                    <li><a class="dropdown-item" href="events.html">Events</a></li>
+                                    <li><a class="dropdown-item" href="reservation-form.html">Reservation Form</a></li>
+                                    <li><a class="dropdown-item" href="404.html">404</a></li>
+                                    <li><a class="dropdown-item" href="comming-soon.html">Comming Soon</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item me-2">
+                                <a class="nav-link fw-bold" href="gallery.html">GALLERY</a>
+                            </li>
+
+                            <li class="nav-item me-2">
+                                <a class="nav-link fw-bold" href="blog.html">BLOG</a>
+                            </li>
+
+                            <li class="nav-item me-2">
+                                <a class="nav-link fw-bold" href="contact.html">CONTACT</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-dark text-white rounded-0 p-2 px-3" href="#">
+                                    RESERVATION
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Title Section -->
+        <div class="about-section">
+            <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                <h2 class="display-4 fw-bold text-center text-white mb-0">About Us</h2>
+                <div class="mt-3">
+                    <p class="text-white text-center mb-0">
+                        Eget duis at tellus at urna condimentum. Mauris sit amet massa.
+                    </p>
+                    <p class="text-center text-white">
+                        Nullam non nisi est sit amet.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Story Section -->
+        <div class="bg-light">
+            <div class="container py-5">
+                <h5 class="cursive-text fs-2 yellow-text mb-0 text-center">
+                    Discover
+                </h5>
+
+                <h2 class="fs-1 text-center">OUR STORY</h2>
+
+                <div class="text-center text-muted">
+
+                    <div>
+                        <small>
+                            Ultrices vitae auctor eu augue. Pellentesque dignissim enim sit amet venenatis .
+                        </small>
+                    </div>
+
+                    <div>
+                        <small>
+                            Vulputate enim nulla aliquet porttitor lacus luctus. Dictumst quisque sagittis purus sit
+                        </small>
+                    </div>
+
+                    <div>
+                        <small>
+                            a. Praesent elementum facilisis leo vel fringilla est. Volutpat sed cras ornare arcu dui
+                        </small>
+                    </div>
+
+                    <div>
+                        <small>
+                            vivamus arcu felis. Non sodales neque sodales ut etiam sit amet ante. Lectus pro
+                        </small>
+                    </div>
+
+                    <div>
+                        <small>
+                            vivamus nibh nisl condimentum id venenatis a condimentum vitae.
+                        </small>
+                    </div>
+
+                    <div class="mt-4">
+                        <img class="img-fluid" src="images/signature.png" alt="signature">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="images/kitchen.jpg" class="card-img-top" alt="kitchen">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="cursive-text fs-2 yellow-text mb-0">
+                                Discover
+                            </h5>
+
+                            <h2 class="fs-1">ABOUT US</h2>
+
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Ultrices vitae auctor eu augue. Pellentesque dignissim eni amet venenatis .
+                                    Vulputate
+                                    enim nulla aliquet porttitor la. Dictumst quisque sagittis purus sit a. Praesent
+                                    elementum facil fringilla est. Volutpat sed cras ornare arcu dui vivamus arcu felis.
+                                    Ma
+                                    etiam tempor orci eu lobortis elementum nibh tellus. Lectus proin nibh nisl
+                                    condimentum
+                                    id venenatis.
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Stuff -->
+        <div class="our-stuff">
+            <div class="container py-5">
+                <h5 class="cursive-text text-center fs-2 yellow-text mb-0">
+                    Discover
+                </h5>
+
+                <h2 class="fs-1 text-center text-white">OUR STAFF</h2>
+
+                <div class="mt-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <img src="images/cheff.jpg" class="card-img-top" alt="chef">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Andrew Austin</h5>
+                                    <p class="card-text text-center text-muted">
+                                        <small>Chef</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <img src="images/staff-1.jpg" class="card-img-top" alt="staff">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Tom Anderson</h5>
+                                    <p class="card-text text-center text-muted">
+                                        <small>Staff</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <img src="images/staff-2.jpg" class="card-img-top" alt="staff">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Emma Johnson</h5>
+                                    <p class="card-text text-center text-muted">
+                                        <small>Staff</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reviews -->
+        <div class="container py-5">
+            <h5 class="cursive-text text-center fs-2 yellow-text mb-0">
+                Reviews
+            </h5>
+
+            <h2 class="fs-1 text-center">TESTIMONIALS</h2>
+
+            <div class="mt-5">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Item -->
+                        <div class="carousel-item active">
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <i class="fas fa-quote-right text-muted"></i>
+
+                                                <div>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <small class="text-muted">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                                                    molestiae odit recusandae corrupti? Facere nesciunt harum maiores
+                                                    temporibus officia itaque?
+                                                </small>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid rounded-picture" src="images/chef.jpg"
+                                                        alt="chef">
+
+                                                    <div class="ms-3">
+                                                        <h5 class="mb-0">FRANK REYES</h5>
+                                                        <small class="text-muted">Master Chef</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <i class="fas fa-quote-right text-muted"></i>
+
+                                                <div>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <small class="text-muted">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                                                    molestiae odit recusandae corrupti? Facere nesciunt harum maiores
+                                                    temporibus officia itaque?
+                                                </small>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid rounded-picture" src="images/chef.jpg"
+                                                        alt="chef">
+
+                                                    <div class="ms-3">
+                                                        <h5 class="mb-0">FRANK REYES</h5>
+                                                        <small class="text-muted">Master Chef</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="carousel-item">
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <i class="fas fa-quote-right text-muted"></i>
+
+                                                <div>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <small class="text-muted">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                                                    molestiae odit recusandae corrupti? Facere nesciunt harum maiores
+                                                    temporibus officia itaque?
+                                                </small>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid rounded-picture" src="images/chef.jpg"
+                                                        alt="chef">
+
+                                                    <div class="ms-3">
+                                                        <h5 class="mb-0">FRANK REYES</h5>
+                                                        <small class="text-muted">Master Chef</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <i class="fas fa-quote-right text-muted"></i>
+
+                                                <div>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <small class="text-muted">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                                                    molestiae odit recusandae corrupti? Facere nesciunt harum maiores
+                                                    temporibus officia itaque?
+                                                </small>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid rounded-picture" src="images/chef.jpg"
+                                                        alt="chef">
+
+                                                    <div class="ms-3">
+                                                        <h5 class="mb-0">FRANK REYES</h5>
+                                                        <small class="text-muted">Master Chef</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="carousel-item">
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <i class="fas fa-quote-right text-muted"></i>
+
+                                                <div>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <small class="text-muted">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                                                    molestiae odit recusandae corrupti? Facere nesciunt harum maiores
+                                                    temporibus officia itaque?
+                                                </small>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid rounded-picture" src="images/chef.jpg"
+                                                        alt="chef">
+
+                                                    <div class="ms-3">
+                                                        <h5 class="mb-0">FRANK REYES</h5>
+                                                        <small class="text-muted">Master Chef</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <i class="fas fa-quote-right text-muted"></i>
+
+                                                <div>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                    <i class="fas fa-star text-warning"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3">
+                                                <small class="text-muted">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                                                    molestiae odit recusandae corrupti? Facere nesciunt harum maiores
+                                                    temporibus officia itaque?
+                                                </small>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid rounded-picture" src="images/chef.jpg"
+                                                        alt="chef">
+
+                                                    <div class="ms-3">
+                                                        <h5 class="mb-0">FRANK REYES</h5>
+                                                        <small class="text-muted">Master Chef</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Book A Table Section -->
+        <div class="bg-light">
+            <div class="container py-5">
+                <h5 class="cursive-text fs-2 yellow-text mb-0 text-center">
+                    Reservation
+                </h5>
+
+                <h2 class="fs-1 text-center">BOOK A TABLE</h2>
+
+                <div class="text-center text-muted">
+                    <div>
+                        <small>
+                            Tempus urna et pharetra pharetra massa massa. Malesuada
+                        </small>
+                    </div>
+
+                    <div>
+                        <small>
+                            fames ac turpis egestas. Ut tristique et
+                            egestas quis.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="mt-5 bg-white p-5">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <input type="text" class="form-control small-text py-2" placeholder="your name">
+                        </div>
+
+                        <div class="col">
+                            <input type="email" class="form-control small-text py-2" placeholder="mail@email.com">
+                        </div>
+
+                        <div class="col">
+                            <input type="text" class="form-control small-text py-2" placeholder="+61 45678789">
+                        </div>
+
+                        <div class="col">
+                            <select class="form-select small-text py-2">
+                                <option selected>1 Person</option>
+                                <option value="1">2 Person</option>
+                                <option value="2">3 Person</option>
+                                <option value="3">4 Person</option>
+                            </select>
+                        </div>
+
+                        <div class="col">
+                            <input type="date" class="form-control small-text py-2">
+                        </div>
+
+                        <div class="col">
+                            <select class="form-select small-text py-2">
+                                <option selected>9:00am</option>
+                                <option value="1">10:00am</option>
+                                <option value="2">11:00am</option>
+                                <option value="3">12:00am</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 text-center">
+                        <a href="#" class="btn btn text-white yellow-bg rounded-0 p-3 px-5">
+                            BOOK A TABLE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lunch 12:00 - 14:00</h5>
+                            <p class="card-text text-center">
+                                <small class="text-center text-muted">
+                                    Everyday
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Dinner 19:00 - 21:00</h5>
+                            <p class="card-text text-center">
+                                <small class="text-muted">
+                                    Monday – Thursday
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Dinner 18:00 - 21:30</h5>
+                            <p class="card-text text-center">
+                                <small class="text-muted">
+                                    Friday – Sunday
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row pt-5 pb-2">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <ul>
+                        <li>
+                            <img class="img-fluid footer-logo" src="images/logo-white.svg" alt="footer logo">
+                        </li>
+
+                        <li class="small-text">
+                            Turpis tincidunt id aliquet feugiat. Lectus magna fringilla urna porttitor rhoncus. Velit
+                            sed ullamcorper morbi tincidunt ornare mas.
+                        </li>
+
+                        <li class="d-flex align-items-center contact">
+                            <a href="#" class="me-3">
+                                <i class="fab fa-facebook-f text-muted social-icon"></i>
+                            </a>
+
+                            <a href="#" class="me-3">
+                                <i class="fab fa-google-plus-g text-muted social-icon"></i>
+                            </a>
+
+                            <a href="#" class="me-3">
+                                <i class="fab fa-twitter text-muted social-icon"></i>
+                            </a>
+
+                            <a href="#" class="me-3">
+                                <i class="fab fa-instagram text-muted social-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <ul>
+                        <li class="footer-sub-title">RECENT POSTS</li>
+                        <li class="pb-2 border-bottom-muted">
+                            <a href="#" class="text-muted fw-bold">
+                                Egestas Fringilla Phasellus
+                            </a>
+                        </li>
+                        <li class="pb-2 border-bottom-muted">
+                            <a href="#" class="text-muted fw-bold">
+                                Arcu Cursus Euismod Quis
+                            </a>
+                        </li>
+                        <li class="pb-2 border-bottom-muted">
+                            <a href="#" class="text-muted fw-bold">
+                                Magna Etiam Tempor Viverra
+                            </a>
+                        </li>
+                        <li class="pb-2 border-bottom-muted">
+                            <a href="#" class="text-muted fw-bold">
+                                Varius Sit Amet Mattis
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <ul>
+                        <li class="footer-sub-title">GALLERY</li>
+                        <li>
+                            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-0">
+                                <div class="col">
+                                    <img class="img-fluid" src="images/food-1.jpg" alt="food">
+                                </div>
+
+                                <div class="col">
+                                    <img class="img-fluid" src="images/food-2.jpg" alt="food">
+                                </div>
+
+                                <div class="col">
+                                    <img class="img-fluid" src="images/food-3.jpg" alt="food">
+                                </div>
+
+                                <div class="col">
+                                    <img class="img-fluid" src="images/food-4.jpg" alt="food">
+                                </div>
+
+                                <div class="col">
+                                    <img class="img-fluid" src="images/food-5.jpg" alt="food">
+                                </div>
+
+                                <div class="col">
+                                    <img class="img-fluid" src="images/food-6.jpg" alt="food">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <ul>
+                        <li class="footer-sub-title">CONTACT INFO</li>
+                        <li class="small-text mb-3">
+                            Reon, 1535 Broadway, New York
+                        </li>
+                        <li class="small-text mb-3">
+                            +1 888-999-3333
+                        </li>
+                        <li class="small-text mb-3">
+                            Contact@example.com
+                        </li>
+
+                        <li class="small-text mb-3">
+                            <div class="row">
+                                <div class="col-6">Lunch</div>
+                                <div class="col-6">
+                                    <span class="text-muted fw-bold">Everyday</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="small-text mb-3">
+                            <div class="row">
+                                <div class="col-6">Dinner: Mon- Thu</div>
+                                <div class="col-6">
+                                    <span class="text-muted fw-bold">
+                                        18:00-21:30
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="small-text mb-3">
+                            <div class="row">
+                                <div class="col-6">Dinner: Fri- Sun</div>
+                                <div class="col-6">
+                                    <span class="text-muted fw-bold">
+                                        19:00-21:00
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-center border-top-muted mb-0 pb-0 mt-3 pt-3">
+                    <p class="text-muted fw-bold">Copyright @ 2019 <span class="text-white">Reon</span>. Get The Theme
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- External Script -->
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
