@@ -1,0 +1,62 @@
+header {
+    background: none;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.title-section {
+    background-image: url("../images/menu-cover.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
+
+.starter {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/food-6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.lunch {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/food-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.dessert {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/food-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.dinner {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/food-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.alcoholic {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/food-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.drinks {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/food-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.menu-link:hover .menu-link-text{
+    background-color: white !important;
+    color: black !important;
+    padding: 10px !important;
+}
