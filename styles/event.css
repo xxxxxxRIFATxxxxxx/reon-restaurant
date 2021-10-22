@@ -5,3 +5,10 @@
 .event-title:hover {
     color: #DEA868;
 } 
+
+.event-details-section {
+    background-image: url("../images/event-details-bg.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
