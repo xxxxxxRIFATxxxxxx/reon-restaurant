@@ -1,0 +1,9 @@
+header {
+    background: url("../images/comming-soon-big.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav-logo {
+    width: 100px;
+}
