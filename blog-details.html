@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="styles/menu-page.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/event.css">
+    <link rel="stylesheet" href="styles/blog.css">
 </head>
 
 <body>
@@ -151,9 +152,11 @@
     <!-- Main -->
     <main>
         <!-- Title Section -->
-        <div class="about-section">
+        <div class="blog-details-section">
             <div class="d-flex flex-column justify-content-center align-items-center h-100">
-                <h2 class="display-4 fw-bold text-center text-white mb-0">Our Events</h2>
+                <h2 class="display-4 fw-bold text-center text-white mb-0">
+                    Egestas Fringilla Phasellus
+                </h2>
                 <div class="mt-3">
                     <p class="text-white text-center mb-0">
                         Eget duis at tellus at urna condimentum. Mauris sit amet massa.
@@ -165,39 +168,105 @@
             </div>
         </div>
 
-        <!-- Event Section -->
+        <!-- Event Details Section -->
         <div class="py-5">
             <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <!-- Item -->
-                    <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/event-1.jpg" class="img-fluid rounded-start" alt="event">
-                                </div>
-                                <div class="col-md-8">
+                <div class="row g-4">
+                    <div class="col-12 col-sm-12 col-md-8">
+                        <!-- Blog -->
+                        <div class="row mb-5">
+                            <div class="col">
+                                <div class="card h-100 border-0">
+                                    <img src="images/blog-1.jpg" class="card-img-top" alt="blog">
                                     <div class="card-body">
-                                        <div class="d-flex justify-content-start align-items-center mb-3">
-                                            <i class="far fa-calendar-alt text-muted me-2"></i>
-                                            <small class="small-text text-muted">January 5, 2019</small>
+                                        <h4 class="card-title mb-3">
+                                            <a class="text-decoration-none text-dark" href="blog-details.html">
+                                                Egestas Fringilla Phasellus
+                                            </a>
+                                        </h4>
+
+                                        <div class="mb-3 d-flex">
+                                            <div class="me-4">
+                                                <i class="far fa-clock text-muted me-2"></i>
+                                                <span class="small-text text-muted">January 3, 2019</span>
+                                            </div>
+
+                                            <div>
+                                                <i class="far fa-sticky-note text-muted me-2"></i>
+                                                <a class="small-text text-decoration-none text-muted"
+                                                    href="blog-details.html">0
+                                                    comments</a>
+                                            </div>
                                         </div>
 
-                                        <h5 class="card-title">
-                                            <a class="text-decoration-none event-title" href="event-details.html">
-                                                Suscipit Tellus Mauris
-                                            </a>
-                                        </h5>
-                                        <p class="card-text">
+                                        <div class="card-text mb-3">
                                             <small class="text-muted">
-                                                Open Mic Night Ullamcorper morbi tincidunt ornare massa egestas sed
+                                                Tellus rutrum tellus pellentesque eu tincidunt. Urna nunc id cursus
+                                                metus aliquam eleifend mi in. Facilisi nullam vehicula ipsum a arcu
+                                                cursus vitae congue mauris.. Blandit liber volutpat sed cras ornare.
+                                                Nulla pellentesque dignissim enim sit amet venenatis urna cursus. At
+                                                erat pellentesque adipiscing commodo elit. Adipiscing vitae proin
+                                                sagittis nisl rhoncus mattis rhoncus urna.
                                             </small>
-                                        </p>
+                                        </div>
 
-                                        <div class="mt-3">
-                                            <a class="fw-bold text-decoration-none event-title"
-                                                href="event-details.html">
-                                                READ MORE
+                                        <div class="card-text mb-3">
+                                            <small class="text-muted">
+                                                Varius sit amet mattis vulputate enim nulla aliquet. Viverra ipsum nunc
+                                                aliquet bibendum enim facili. Viverra nam libero justo laoreet sit amet
+                                                cursus sit. Malesuada nunc vel risus commodo viverra. Odio aenean sed
+                                                adipiscing diam donec adipiscing tristique risus nec.
+                                            </small>
+                                        </div>
+
+                                        <div class="card-text mb-3">
+                                            <small class="text-muted">
+                                                Tellus rutrum tellus pellentesque eu tincidunt. Urna nunc id cursus
+                                                metus aliquam eleifend mi in. Facilisi nullam vehicula ipsum a arcu
+                                                cursus vitae congue mauris.. Blandit liber volutpat sed cras ornare.
+                                                Nulla pellentesque dignissim enim sit amet venenatis urna cursus. At
+                                                erat pellentesque adipiscing commodo elit. Adipiscing vitae proin
+                                                sagittis nisl rhoncus mattis rhoncus urna.
+                                            </small>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-mb-5">
+                            <div class="col">
+                                <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-5">Leave a Comment</h4>
+
+                                        <div class="mb-3">
+                                            <input type="text"
+                                                class="form-control light-silver-bg small-text py-2 rounded-0"
+                                                placeholder="Your Name">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <input type="email"
+                                                class="form-control light-silver-bg small-text py-2 rounded-0"
+                                                placeholder="Your Email">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <input type="text"
+                                                class="form-control light-silver-bg small-text py-2 rounded-0"
+                                                placeholder="Your Subject">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <textarea class="form-control light-silver-bg small-text rounded-0"
+                                                cols="30" rows="10"></textarea>
+                                        </div>
+
+                                        <div>
+                                            <a href="#" class="btn btn text-white yellow-bg rounded-0 p-3 px-5">
+                                                SUBMIT
                                             </a>
                                         </div>
                                     </div>
@@ -206,185 +275,147 @@
                         </div>
                     </div>
 
-                    <!-- Item -->
-                    <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/event-2.jpg" class="img-fluid rounded-start" alt="event">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <div class="d-flex justify-content-start align-items-center mb-3">
-                                            <i class="far fa-calendar-alt text-muted me-2"></i>
-                                            <small class="small-text text-muted">January 5, 2019</small>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Search</h5>
+                                <div class="card-text">
+                                    <!-- Search Box -->
+                                    <div class="input-group mb-5">
+                                        <input type="text" class="form-control small-text py-2"
+                                            placeholder="Search here">
+                                        <span class="input-group-text">
+                                            <i class="fas fa-search text-muted"></i>
+                                        </span>
+                                    </div>
+
+                                    <!-- Categories -->
+                                    <div class="mb-5">
+                                        <h5 class="card-title mb-3">Categories</h5>
+                                        <ul class="list-group">
+                                            <li class="list-group-item border-0 border-bottom">
+                                                <a class="text-decoration-none text-dark" href="#">Decorate</a>
+                                            </li>
+                                            <li class="list-group-item border-0 border-bottom">
+                                                <a class="text-decoration-none text-dark" href="#">Even</a>
+                                            </li>
+                                            <li class="list-group-item border-0 border-bottom">
+                                                <a class="text-decoration-none text-dark" href="#">Gallery</a>
+                                            </li>
+                                            <li class="list-group-item border-0 border-bottom">
+                                                <a class="text-decoration-none text-dark" href="#">Recipe</a>
+                                            </li>
+                                            <li class="list-group-item border-0 border-bottom">
+                                                <a class="text-decoration-none text-dark" href="#">Restaurant Food</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Recent Post -->
+                                    <div class="mb-5">
+                                        <h5 class="card-title mb-3">Recent Post</h5>
+                                        <!-- Post -->
+                                        <div class="mb-3">
+                                            <div>
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid small-blog-image" src="images/blog-1.jpg"
+                                                        alt="chef">
+
+                                                    <div class="ms-3">
+                                                        <h6 class="mb-0">
+                                                            <a class="text-decoration-none text-dark"
+                                                                href="blog-details.html">
+                                                                Egestas Fringilla
+                                                            </a>
+                                                        </h6>
+                                                        <small class="text-muted small-text">January 3, 2019</small>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                        <h5 class="card-title">
-                                            <a class="text-decoration-none event-title" href="event-details.html">
-                                                Suscipit Tellus Mauris
-                                            </a>
-                                        </h5>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                Open Mic Night Ullamcorper morbi tincidunt ornare massa egestas sed
-                                            </small>
-                                        </p>
+                                        <!-- Post -->
+                                        <div class="mb-3">
+                                            <div>
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid small-blog-image" src="images/blog-2.jpg"
+                                                        alt="chef">
 
-                                        <div class="mt-3">
-                                            <a class="fw-bold text-decoration-none event-title"
-                                                href="event-details.html">
-                                                READ MORE
-                                            </a>
+                                                    <div class="ms-3">
+                                                        <h6 class="mb-0">
+                                                            <a class="text-decoration-none text-dark"
+                                                                href="blog-details.html">
+                                                                Egestas Fringilla
+                                                            </a>
+                                                        </h6>
+                                                        <small class="text-muted small-text">January 3, 2019</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Post -->
+                                        <div class="mb-3">
+                                            <div>
+                                                <div class="d-flex align-items-center">
+                                                    <img class="img-fluid small-blog-image" src="images/blog-3.jpg"
+                                                        alt="chef">
+
+                                                    <div class="ms-3">
+                                                        <h6 class="mb-0">
+                                                            <a class="text-decoration-none text-dark"
+                                                                href="blog-details.html">
+                                                                Egestas Fringilla
+                                                            </a>
+                                                        </h6>
+                                                        <small class="text-muted small-text">January 3, 2019</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Recent Post -->
+                                    <div class="mb-5">
+                                        <h5 class="card-title mb-3">Tags</h5>
+                                        <div>
+                                            <div class="row row-cols-1 row-cols-md-3 g-2">
+                                                <div class="col">
+                                                    <div class="border p-2 text-center">
+                                                        <small class="text-muted small-text">Cooking</small>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col">
+                                                    <div class="border p-2 text-center">
+                                                        <small class="text-muted small-text">Soup</small>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col">
+                                                    <div class="border p-2 text-center">
+                                                        <small class="text-muted small-text">Ice cream</small>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col">
+                                                    <div class="border p-2 text-center">
+                                                        <small class="text-muted small-text">Meat</small>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col">
+                                                    <div class="border p-2 text-center">
+                                                        <small class="text-muted small-text">Steak</small>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <!-- Item -->
-                    <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/event-3.jpg" class="img-fluid rounded-start" alt="event">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <div class="d-flex justify-content-start align-items-center mb-3">
-                                            <i class="far fa-calendar-alt text-muted me-2"></i>
-                                            <small class="small-text text-muted">January 5, 2019</small>
-                                        </div>
-
-                                        <h5 class="card-title">
-                                            <a class="text-decoration-none event-title" href="event-details.html">
-                                                Suscipit Tellus Mauris
-                                            </a>
-                                        </h5>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                Open Mic Night Ullamcorper morbi tincidunt ornare massa egestas sed
-                                            </small>
-                                        </p>
-
-                                        <div class="mt-3">
-                                            <a class="fw-bold text-decoration-none event-title"
-                                                href="event-details.html">
-                                                READ MORE
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item -->
-                    <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/event-4.jpg" class="img-fluid rounded-start" alt="event">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <div class="d-flex justify-content-start align-items-center mb-3">
-                                            <i class="far fa-calendar-alt text-muted me-2"></i>
-                                            <small class="small-text text-muted">January 5, 2019</small>
-                                        </div>
-
-                                        <h5 class="card-title">
-                                            <a class="text-decoration-none event-title" href="event-details.html">
-                                                Suscipit Tellus Mauris
-                                            </a>
-                                        </h5>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                Open Mic Night Ullamcorper morbi tincidunt ornare massa egestas sed
-                                            </small>
-                                        </p>
-
-                                        <div class="mt-3">
-                                            <a class="fw-bold text-decoration-none event-title"
-                                                href="event-details.html">
-                                                READ MORE
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Book A Table Section -->
-        <div class="bg-light">
-            <div class="container py-5">
-                <h5 class="cursive-text fs-2 yellow-text mb-0 text-center">
-                    Reservation
-                </h5>
-
-                <h2 class="fs-1 text-center">BOOK A TABLE</h2>
-
-                <div class="text-center text-muted">
-                    <div>
-                        <small>
-                            Tempus urna et pharetra pharetra massa massa. Malesuada
-                        </small>
-                    </div>
-
-                    <div>
-                        <small>
-                            fames ac turpis egestas. Ut tristique et
-                            egestas quis.
-                        </small>
-                    </div>
-                </div>
-
-                <div class="mt-5 bg-white p-5">
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                        <div class="col">
-                            <input type="text" class="form-control small-text py-2" placeholder="your name">
-                        </div>
-
-                        <div class="col">
-                            <input type="email" class="form-control small-text py-2" placeholder="mail@email.com">
-                        </div>
-
-                        <div class="col">
-                            <input type="text" class="form-control small-text py-2" placeholder="+61 45678789">
-                        </div>
-
-                        <div class="col">
-                            <select class="form-select small-text py-2">
-                                <option selected>1 Person</option>
-                                <option value="1">2 Person</option>
-                                <option value="2">3 Person</option>
-                                <option value="3">4 Person</option>
-                            </select>
-                        </div>
-
-                        <div class="col">
-                            <input type="date" class="form-control small-text py-2">
-                        </div>
-
-                        <div class="col">
-                            <select class="form-select small-text py-2">
-                                <option selected>9:00am</option>
-                                <option value="1">10:00am</option>
-                                <option value="2">11:00am</option>
-                                <option value="3">12:00am</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="mt-4 text-center">
-                        <a href="#" class="btn btn text-white yellow-bg rounded-0 p-3 px-5">
-                            BOOK A TABLE
-                        </a>
                     </div>
                 </div>
             </div>

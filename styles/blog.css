@@ -1,3 +1,10 @@
 .small-blog-image {
     width: 100px;
 }
+
+.blog-details-section {
+    background-image: url("../images/blog-detailg-bg.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
