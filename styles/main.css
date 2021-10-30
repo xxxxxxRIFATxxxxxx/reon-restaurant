@@ -22,3 +22,15 @@
 .small-text {
     font-size: 14px;
 }
+
+.switch {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5%;
+}
+
+.ball {
+    padding: 3px;
+}
